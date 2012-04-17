@@ -2,6 +2,12 @@
 " https://github.com/tpope/vim-pathogen
 call pathogen#infect()
 
+" solarized color theme
+syntax enable
+set background=dark
+colorscheme solarized
+
+
 " Basic settings
 " http://www.philaquilina.com/2012/03/14/the-warm-embrace-of-vim-part-2/
 syntax on
